@@ -11,6 +11,6 @@ public class EmailMessageSender implements MessageSender{
 
     @Override
     public void sendMessage(User user, String message) {
-        System.out.println("SMS Message :"+user.getEmail() + message);
+        System.out.println("SMS Message :"+user.getPhoneNumber() + message);
     }
 }
