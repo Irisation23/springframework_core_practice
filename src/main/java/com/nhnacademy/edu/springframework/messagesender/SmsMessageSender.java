@@ -6,7 +6,7 @@ public class SmsMessageSender implements MessageSender{
 
     public SmsMessageSender(){
         System.out.println("SmsMessageSender initiated!!");
-    };
+    }
 
     public SmsMessageSender(User user, String message) {
         this.user = user;
