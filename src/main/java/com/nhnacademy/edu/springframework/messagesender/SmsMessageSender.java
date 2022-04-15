@@ -4,6 +4,8 @@ public class SmsMessageSender implements MessageSender{
     private User user;
     private String message;
 
+    public SmsMessageSender(){};
+
     public SmsMessageSender(User user, String message) {
         this.user = user;
         this.message = message;

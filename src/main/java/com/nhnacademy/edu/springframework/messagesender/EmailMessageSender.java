@@ -4,6 +4,8 @@ public class EmailMessageSender implements MessageSender{
     private User user;
     private String message;
 
+    public EmailMessageSender(){};
+
     public EmailMessageSender(User user, String message) {
         this.user = user;
         this.message = message;
