@@ -9,7 +9,10 @@ public class Main2 {
         try(ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beans.xml"))
         {
             EmailMessageSender emailMessageSender = context.getBean("emailMessageSender", EmailMessageSender.class);
+            EmailMessageSender emailMessageSender1 = context.getBean("emailMessageSender", EmailMessageSender.class);
             SmsMessageSender smsMessageSender = context.getBean("smsMessageSender", SmsMessageSender.class);
+            SmsMessageSender smsMessageSender1 = context.getBean("smsMessageSender", SmsMessageSender.class);
+
 
             emailMessageSender.sendMessage(user," this is emailSender");
             smsMessageSender.sendMessage(user," this is smsSender");
