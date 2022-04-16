@@ -57,3 +57,10 @@ private B b;
     }
 }
 ```
+Dependency Injection
+
+1. DI는 디자인 패턴이다. 핵심 원칙은 의존성 이슈로 부터 행동을 분리 시키는 것이다.
+2. DI는 IoC(의 구현일 뿐이다.
+3. 외부에서 객체를 생성하고 전달한다.
+
+#Spring Framework Dependency Injection

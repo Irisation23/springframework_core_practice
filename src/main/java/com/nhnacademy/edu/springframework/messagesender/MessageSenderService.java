@@ -10,7 +10,7 @@ public class MessageSenderService {
         this.user = user;
     }
 
-    public void doSendMessage(){
+    public void doSendMessage() {
         messageSender.sendMessage(user, " Hello this is IoCMain call");
     }
 }
